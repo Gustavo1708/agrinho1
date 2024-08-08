@@ -19,8 +19,8 @@ body {
 }
 
 header {
-    background-color: hsl(9, 39%, 49%);
-    color: #fff;
+    background-color: hsl(97, 84%, 29%);
+    color: #17760b;
     padding: 10px 0;
     text-align: center;
 }
@@ -50,22 +50,42 @@ section {
 }
 
 .section {
-    background-color: #fff;
+    background-color: #19640b;
     text-align: center;
 }
 
 section h2 {
     font-size: 2em;
-    color: #af4c4c;
+    color: #1ba107;
     margin-bottom: 20px;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: #397b0d;
     text-align: center;
     padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+/* Define o estilo básico do botão */
+.expand-button {
+    display: inline-block;     /* Faz com que a tag <a> se comporte como um bloco */
+    background-color: #d4d108; /* Cor de fundo do botão */
+    color: #275308;            /* Cor do texto */
+    text-align: center;        /* Alinha o texto ao centro */
+    text-decoration: none;     /* Remove o sublinhado padrão dos links */
+    border: none;              /* Remove a borda padrão */
+    padding: 10px 20px;        /* Espaçamento interno */
+    font-size: 16px;           /* Tamanho da fonte */
+    cursor: pointer;           /* Cursor de ponteiro ao passar por cima */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Transições suaves */
+    border-radius: 5px;        /* Cantos arredondados */
+}
+
+/* Estilo aplicado ao botão quando o mouse está sobre ele */
+.expand-button:hover {
+    transform: scale(1.2);    /* Expande o botão */
+    background-color: #0d911c; /* Cor de fundo ao passar o mouse */
 }
